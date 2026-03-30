@@ -63,5 +63,40 @@ console.log(valor1 > 100 || valor2 > 10);
 // && = and || = or
 console.log(valor1 == valor2); //valor
 console.log(valor2 === valor1) //valor e tipo
+//******************************************************************** */
+
+//1) Utilizando as variáveis p (preço do produto) e  v(valor do desconto), 
+// crie uma nova variável 
+//chamada precoFinal que subtraia o desconto do preço e exiba o resultado.
+
+const p = 20;
+const v = 0.5;
+const precoFinal = p - v;
+console.log("O preço final com desconto é", precoFinal);
+
+//2) Crie uma condição que verifique se o valor de 
+//a é estritamente igual a 20 e se b é maior ou igual a 10.
+//O console deve retornar true
+
+const a = 20
+const b = 13
+ let comparar = (a ==20 && b>=10)
+console.log("O resultado é:", comparar)
+console.log(a==+20 && b>=10)
+
+//3)Verificação de Segurança (Login e Token)
+//No banco, para autorizar uma transação, precisamos que o usuário 
+// esteja logado e que o token de segurança seja válido.
+
+var user_login = true;
+var user_password = true;
+if (user_login ==  true){
+    console.log("Transação Realizada")
+}
 
 
+const usuarioLogado = 20;
+const tempoToken = 10;
+
+const transacao = (usuarioLogado === 20 && tempoToken >=10);
+console.log("Transação Autorizada ", transacao)
